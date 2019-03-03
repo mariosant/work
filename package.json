@@ -4,6 +4,9 @@
     "name": "Marios Antonoudiou",
     "email": "mariosant@sent.com"
   },
+  "bin": {
+    "work": ".src/work.js"
+  },
   "version": "0.0.0-development",
   "description": "Run lean rabbitmq consumers",
   "main": "src/index.js",
