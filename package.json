@@ -1,0 +1,67 @@
+{
+  "name": "@mariosant/work",
+  "author": {
+    "name": "Marios Antonoudiou",
+    "email": "mariosant@sent.com"
+  },
+  "version": "0.0.0-development",
+  "description": "Run lean rabbitmq consumers",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "xo",
+    "test": "jest",
+    "semantic-release": "semantic-release",
+    "commit": "git-cz"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "amqplib": "^0.5.3",
+    "commander": "^2.19.0",
+    "ora": "^3.1.0",
+    "ramda": "^0.26.1",
+    "yargs": "^13.2.1"
+  },
+  "devDependencies": {
+    "commitizen": "^3.0.7",
+    "cz-conventional-changelog": "^2.1.0",
+    "delay": "^4.1.0",
+    "husky": "^1",
+    "jest": "^23",
+    "lint-staged": "^8",
+    "nodemon": "^1",
+    "semantic-release": "^15.13.3",
+    "xo": "^0"
+  },
+  "lint-staged": {
+    "*": [
+      "xo --fix",
+      "git add"
+    ]
+  },
+  "xo": {
+    "prettier": true,
+    "envs": [
+      "jest",
+      "node",
+      "browser"
+    ],
+    "rules": {
+      "camelcase": 1
+    }
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged",
+      "pre-push": "yarn test"
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mariosant/work.git"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
