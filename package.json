@@ -7,8 +7,11 @@
   "bin": {
     "work": ".src/work.js"
   },
-  "version": "0.0.0",
+  "version": "0.0.1",
   "description": "Run lean rabbitmq consumers",
+  "publishConfig": {
+    "access": "public"
+  },
   "main": "src/index.js",
   "scripts": {
     "lint": "xo",
