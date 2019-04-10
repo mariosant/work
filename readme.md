@@ -4,7 +4,6 @@
 
 [![NPM version](https://img.shields.io/npm/v/@mariosant/work.svg)](https://www.npmjs.com/package/@mariosant/work)
 [![Build Status](https://travis-ci.org/mariosant/work.svg?branch=master)](https://travis-ci.org/mariosant/work)
-[![Commitizen friendly](https://img.shields.io/badge/commitizen-friendly-brightgreen.svg)](http://commitizen.github.io/cz-cli/)
 
 Work is a framework for developing processing systems that rely on RabbitMQ. It provides the developer a simplified set of tools to build
 
@@ -78,6 +77,6 @@ Distributed under the MIT license.
 
 1. Fork it (<https://github.com/mariosant/work/fork>)
 2. Create your feature branch (`git checkout -b feature/fooBar`)
-3. Commit your changes using a semantic commit message. I include a `yarn commit` script to help you out.
+3. Commit your changes using a semantic commit message.
 4. Push to the branch (`git push origin feature/fooBar`)
 5. Create a new Pull Request
