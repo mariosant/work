@@ -7,7 +7,7 @@
   "bin": {
     "work": ".src/work.js"
   },
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Run lean rabbitmq consumers",
   "publishConfig": {
     "access": "public"
@@ -16,8 +16,7 @@
   "scripts": {
     "lint": "xo",
     "test": "jest",
-    "semantic-release": "semantic-release",
-    "commit": "git-cz"
+    "release": "standard-version"
   },
   "license": "MIT",
   "dependencies": {
@@ -28,14 +27,12 @@
     "yargs": "^13.2.1"
   },
   "devDependencies": {
-    "commitizen": "^3.0.7",
-    "cz-conventional-changelog": "^2.1.0",
     "delay": "^4.1.0",
     "husky": "^1",
     "jest": "^24",
     "lint-staged": "^8",
     "nodemon": "^1",
-    "semantic-release": "^15.13.3",
+    "standard-version": "^5.0.2",
     "xo": "^0"
   },
   "lint-staged": {
