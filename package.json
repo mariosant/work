@@ -7,7 +7,7 @@
   "bin": {
     "work": ".src/work.js"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Run lean rabbitmq consumers",
   "publishConfig": {
     "access": "public"
