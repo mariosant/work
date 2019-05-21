@@ -3,7 +3,7 @@
 > Guaranteed to do the work!
 
 [![NPM version](https://img.shields.io/npm/v/@mariosant/work.svg)](https://www.npmjs.com/package/@mariosant/work)
-[![Build Status](https://travis-ci.org/mariosant/work.svg?branch=master)](https://travis-ci.org/mariosant/work)
+[![CircleCI](https://circleci.com/gh/mariosant/work/tree/master.svg?style=svg)](https://circleci.com/gh/mariosant/work/tree/master)
 
 Work is a framework for developing processing systems that rely on RabbitMQ. It provides the developer a simplified set of tools to build
 
