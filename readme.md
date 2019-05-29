@@ -1,6 +1,8 @@
 # Work
 
-> Guaranteed to do the work!
+Guaranteed to do the work!
+
+[![ko-fi](https://www.ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/M4M7W45W)
 
 [![NPM version](https://img.shields.io/npm/v/@mariosant/work.svg)](https://www.npmjs.com/package/@mariosant/work)
 [![CircleCI](https://circleci.com/gh/mariosant/work/tree/master.svg?style=svg)](https://circleci.com/gh/mariosant/work/tree/master)
