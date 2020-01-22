@@ -28,7 +28,7 @@
   },
   "devDependencies": {
     "delay": "^4.1.0",
-    "husky": "^3",
+    "husky": "^4",
     "jest": "^24",
     "lint-staged": "^9",
     "nodemon": "^1",
