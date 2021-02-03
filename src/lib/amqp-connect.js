@@ -1,6 +1,6 @@
 const amqplib = require('amqplib');
 
-module.exports = async consumer => {
+module.exports = async (consumer) => {
 	const connection = await amqplib.connect(consumer.uri);
 
 	const channel = await connection.createChannel();
