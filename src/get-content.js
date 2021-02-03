@@ -9,8 +9,8 @@ const isMessageJson = pathEq(['properties', 'contentType'], 'application/json');
  */
 const getContent = ifElse(
 	isMessageJson,
-	message => JSON.parse(message.content.toString()),
-	message => message.content.toString(),
+	(message) => JSON.parse(message.content.toString()),
+	(message) => message.content.toString(),
 );
 
 module.exports = getContent;
